@@ -879,14 +879,15 @@ a:hover {
 
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: rgba(0, 0, 0, 0.774);
   opacity: 0;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
+  top: 8%;
+  right: 8%;
+  bottom: 8%;
+  left: 8%;
   position: absolute;
   content: '';
+  border-radius: 10px;
 }
 
 .portfolio-block img {
